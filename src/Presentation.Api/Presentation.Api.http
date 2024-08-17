@@ -1,0 +1,12 @@
+﻿@Presentation.Api_HostAddress = https://localhost:7000
+
+POST {{Presentation.Api_HostAddress}}/api/v1/short
+Content-Type: application/json
+
+"https://www.google.com"
+
+###
+
+GET {{Presentation.Api_HostAddress}}/api/v1/short/8FFDEFBDEC956B595D257F0AAEEFD623
+
+###
